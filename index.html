@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap website</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- My styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="header d-flex">
+      <!-- navbar here -->
+      <nav>
+        <div class="container-fluid d-flex justify-content-between">
+          <h1>BOOTSTRAP</h1>
+          <div class="d-flex">
+            <a href="#" class="text-decoration-none m-3 align-self-center">ABOUT</a>
+            <a href="#" class="text-decoration-none m-3 align-self-center">PHOTOS</a>
+            <a href="#" class="text-decoration-none m-3 align-self-center">CONTACT</a>
+            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#reg-modal">REGISTERY</button>
+          </div>
+        </div>
+      </nav>
+
+      
+      <!--start-modal-->
+      
+      <div class="modal fade" id="reg-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal-title">Register</h5>
+              <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, officiis quam. Eum obcaecati facere fuga aut dignissimos veritatis minus deserunt laborum aliquid odio! Vero ab iusto obcaecati iure reprehenderit harum!</p>
+              <label for="modal-email" class="form-label">Your E-mail:</label>
+              <input type="email" class="form-control" id="modal-email" placeholder="E-mail">
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-danger">Register</button>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <!--end-modal-->
+      
+      <div class="first-section position-absolute align-self-center">
+        <div class="mb-4">
+          <h2 class="text-center text-white">BOOTSTRAP TEMPLATE</h2>
+          </div>
+          <div class="d-flex justify-content-center">
+            <p class="w-75 text-center text-uppercase">Start Bootstrap can help you build better websites using the     Bootstrap CSS framework! Just download your template and start going,   no strings attached!</p>
+          </div>
+        </div>
+      </div>
+  </header>
+  <main>
+    <!--About section About-->
+    <div class="about-background d-flex align-items-center justify-content-center">
+        <div class="about container">
+          <div class="d-flex justify-content-center mb-4">
+            <h2 class="text-center text-white pb-4 about-h2">ABOUT</h2>
+          </div>
+          <p  class="text-center">Bootstrap is the most popular HTML, CSS, and JavaScript framework    for developing responsive, mobile-first web sites.</p>
+          <p class="text-center">Bootstrap is completely free to download and use!</p>
+          <div class="d-flex justify-content-center">
+            <button type="button" class="btn about-btn text-white">Start Learning Bootstrap</button>
+          </div>
+        </div>
+      </div>
+      
+      <!--services section-->
+      
+      <div class="services justify-content-center mt-5 container">
+        <div class="d-flex justify-content-center">
+          <h2 class="services-h2 pb-4 ">SERVICES</h2>
+        </div>
+
+        <div class="icon-div d-flex align-items-center justify-content-between my-6 flex-column flex-md-row">
+          <!--speed of development-->
+          <div class="w-20 mb-3 box-sizing">
+            <div class="mb-4 d-flex justify-content-center"><img src="assets/imgs/hour-glass.png" alt="hour glass" class=" w-50"></div>
+            <h4 class="mb-3 text-center">Speed Of Development</h4>
+            <p class="text-dark text-center">Rather than coding from scratch, Bootstrap enables you to utilize ready made blocks of code to help you get started.  </p>
+          </div>
+          
+          <!--Responsive-->
+          <div class="w-20 box-sizing">
+            <div class="mb-4 d-flex justify-content-center"><img src="assets/imgs/smartphone.png" alt="mobile" class="w-50"></div>
+            <h4 class="mb-3 text-center">Responsiveness</h4>
+            <p class="text-dark text-center">Creating mobile ready websites is a breeze with Bootstrap thanks to the fluid grid layout that dynamically adjusts to the proper screen resolution.</p>
+          </div>
+          
+          <!--Consistency-->
+          <div class="w-20 mb-5 box-sizing">
+            <div class="mb-4 d-flex justify-content-center"><img src="assets/imgs/star.png" alt="star" class="w-50"></div>
+            <h4 class="mb-3 text-center">Consistency</h4>
+            <p class="text-dark text-center">Bootstrap can be tailor made according to the specifications of your project.</p>
+          </div> 
+          
+          <!-- Customizable -->
+          <div class="w-20 mb-5 box-sizing">
+            <div class="mb-4 d-flex justify-content-center"><img src="assets/imgs/sunglasses.png" alt="sunglass" class="w-50"></div>
+            <h4 class="mb-3 text-center">Customizable</h4>
+          <p class="text-dark text-center">Bootstrap can be tailor made according to the specifications of your project.</p>
+        </div>
+      </div>
+    </div>
+    <!--Three images section-->
+    <div class="d-flex mt-5 flex-column flex-md-row">
+      <div class="last-p1"><img src="assets/imgs/bird.jpg" alt="bird" class="w-100"></div>
+      <div class="last-p2"><img src="assets/imgs/guitar.jpg" alt="guitar" class="w-100"></div>
+      <div class="last-p3"><img src="assets/imgs/bird2.jpg" alt="bird" class="w-100"></div>
+    </div>
+  </main>
+  <footer>
+    <div class="d-flex justify-content-center align-items-center h-100px bg-dark">
+      <p>This website by Peter Essam</p>
+    </div>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  
+  <script src="js/bootstrap.js"></script>
+  
+</body>
+
+</html>
